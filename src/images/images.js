@@ -21,7 +21,7 @@ export const Images = () => {
         <h3>Select and upload images</h3>
         <input
           type="file"
-          accept="image/png"
+          accept="image/*"
           multiple={true}
           max={5}
           onChange={(e) => {
