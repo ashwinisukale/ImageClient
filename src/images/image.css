@@ -1,0 +1,18 @@
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-holder {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 20px;
+
+  border-radius: 10px;
+}
+
+.image-holder img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+}
